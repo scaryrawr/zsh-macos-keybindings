@@ -3,3 +3,5 @@ bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 bindkey "^[[1;3D" backward-word
 bindkey "^[[1;3C" forward-word
+bindkey "^[[3;3~" delete-word
+
